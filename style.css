@@ -58,4 +58,16 @@ nav>ul>li{
 
 button{
     margin: 0 1vw;
+    width:7vw;
+    height:4vh;
+    color:white;
+    border: 1px solid white;
+}
+
+button:nth-child(1){
+    background-color: rgb(126, 238, 126);
+}
+
+button:nth-child(2){
+    background-color: rgb(247, 209, 137);
 }

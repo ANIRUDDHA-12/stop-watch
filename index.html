@@ -28,15 +28,15 @@
    <div class="clock">
 
     <section class="timer">
-        <p>00</p>
+        <p id="hour">00</p>
         <p>:</p>
-        <p>15</p>
+        <p id="min">00</p>
         <p>:</p>
-        <p>00</p>
+        <p id="sec">00</p>
     </section>
     <section class="buttons">
-        <button style="width:7vw;height:4vh;color:white;background-color: rgb(126, 238, 126);border: 1px solid white;">RESET</button>
-        <button style="width:7vw;height:4vh;color:white;background-color: rgb(247, 209, 137);border: 1px solid white;">START</button> 
+        <button onclick="handleReset()">RESET</button>
+         <button onclick="handleStart()">START</button> 
     </section>
    </div>
    
@@ -44,5 +44,6 @@
    <footer>
 
    </footer>
+   <script src="./script.js" ></script>
 </body>
 </html>
