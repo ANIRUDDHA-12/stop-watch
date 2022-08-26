@@ -30,31 +30,32 @@ nav>ul>li{
 .clock{
     background-color: white;
     width: 80vw;
-    height: 72vh;
+    height: 67vh;
     margin: 8vh auto; 
     align-items: center;  
     /* display: flex; */
 }
-.clock>section{
+.timer{
     width: 5vw;
     display: flex;
     text-align: center;
     padding-top: 8%;
     font-size: 5rem;
-    margin-left: 32%;
+    margin-left: 35%;
     
 }
 .clock>section>p{
     font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    margin-top: 10vh;
 
 }
-.clock>.buttons>button{
-    margin: 0px;
-    padding: 0px;
+.buttons{
+    margin: 3vh auto;
+    display: flex;
+    justify-content: center;
 }
-.buttons>button:nth-child(2){
-  
-}
-.button>button:nth-child(1){
-    background-color: red;
+
+button{
+    margin: 0 1vw;
 }
